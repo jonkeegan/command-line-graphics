@@ -16,7 +16,8 @@ brew install ffmpeg
 ## Download the data and the pill photos
 You can get the raw data from here: http://pillbox.nlm.nih.gov/developer.html
 
-```wget http://pillbox.nlm.nih.gov/downloads/mysql_create_engine_data_20150511.txt
+```
+wget http://pillbox.nlm.nih.gov/downloads/mysql_create_engine_data_20150511.txt
 wget http://pillbox.nlm.nih.gov/downloads/pillbox_color_lookup.csv
 wget http://pillbox.nlm.nih.gov/downloads/pillbox_DEA_lookup.csv
 wget http://pillbox.nlm.nih.gov/downloads/pillbox_shape_lookup.csv
@@ -29,10 +30,11 @@ In `data.php` you must enter your database name. It's set up assuming you are us
 
 Just use the `mysql_create_engine_data_20150511.txt` file to setup the database.  I renamed the table `pillbox`.
 
-Place all of the pill photos into 'pill_photos'.
+Place all of the pill photos into `pill_photos`.
 
 ##Process images
-```node analyze_pills.js > im_commands.sh
+```
+node analyze_pills.js > im_commands.sh
 sh im_commands.sh
 node build_sorted_list.js > jumbo_with_dom_sat.json
 ```
