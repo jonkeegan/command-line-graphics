@@ -12,6 +12,8 @@ brew install node
 brew install imagemagick
 brew install ffmpeg
 brew install exif
+brew install coreutils
+
 ```
 ## Pillbox demo: Exporting histograms, sorting by hue, saturation and value
 
