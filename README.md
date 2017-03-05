@@ -22,6 +22,7 @@ You can get the raw data from here: http://pillbox.nlm.nih.gov/developer.html
 
 ```
 wget http://pillbox.nlm.nih.gov/downloads/mysql_create_engine_data_20150511.txt
+wget https://pillbox.nlm.nih.gov/downloads/pillbox_201605.txt
 wget http://pillbox.nlm.nih.gov/downloads/pillbox_color_lookup.csv
 wget http://pillbox.nlm.nih.gov/downloads/pillbox_DEA_lookup.csv
 wget http://pillbox.nlm.nih.gov/downloads/pillbox_shape_lookup.csv
