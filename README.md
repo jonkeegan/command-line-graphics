@@ -34,7 +34,7 @@ In `data.php` you must enter your database name. It's set up assuming you are us
 
 Just use the `mysql_create_engine_data_20150511.txt` file to setup the database.  I renamed the table `pillbox`.
 
-Place all of the pill photos into `pill_photos`.
+Place all of the pill photos into `pill_images`.
 
 ### Process images
 ```
