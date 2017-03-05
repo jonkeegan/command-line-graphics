@@ -1,8 +1,8 @@
 # Command Line Graphics
-@jonkeegan | jonathan.keegan@wsj.com
+@jonkeegan | jonkeegan@gmail.com
 
-Slides from my talk "Command Line Graphics" at NICAR 2016:
-http://bit.ly/clgfx-nicar16
+Slides from my talk "Command Line Graphics" at NICAR:
+http://bit.ly/clgfx-nicar17
 
 @jonkeegan
 
@@ -13,6 +13,8 @@ brew install imagemagick
 brew install ffmpeg
 brew install exif
 brew install coreutils
+brew install python
+pip install csvkit
 
 ```
 ## Pillbox demo: Exporting histograms, sorting by hue, saturation and value
